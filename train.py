@@ -29,10 +29,7 @@ from val import evaluate
 
 def get_current_consistency_weight(epoch):
     # Consistency ramp-up from https://arxiv.org/abs/1610.02242
-    if epoch >= 10000:
-        return args.consistency * 1
-    else:
-        return args.consistency * ramps.sigmoid_rampup(epoch, args.consistency_rampup)
+    return args.consistency * ramps.sigmoid_rampup(epoch, args.consistency_rampup)
 
 
 def update_ema_variables(model, ema_model, alpha, global_step):
