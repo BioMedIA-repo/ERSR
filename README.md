@@ -1,0 +1,1 @@
+## ERSR: An Ellipse-constrained refinement and symmetric regularization framework for semi-supervised fetal head segmentation in ultrasound images
