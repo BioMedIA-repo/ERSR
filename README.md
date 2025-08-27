@@ -1,6 +1,6 @@
 # ERSR
 
-This is the official implementation of [ERSR: An Ellipse-constrained pseudo-label refinement and symmetric regularization framework for semi-supervised fetal head segmentation in ultrasound images] at PG-2025.
+This is the official implementation of [ERSR: An Ellipse-constrained pseudo-label refinement and symmetric regularization framework for semi-supervised fetal head segmentation in ultrasound images] at JBHI-2025.
 
 ## Table of Contents
 - [Requirements](#requirements)
