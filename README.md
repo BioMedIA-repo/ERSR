@@ -36,7 +36,7 @@ python train.py --exp se/train --data_name fetal_head_se --labeled_ratio 0.1
 ```
 
 ## Acknowledgement
-The code is based on [SSL4MIS]([https://github.com/HiLab-git/SSL4MIS]).
+The code is based on [SSL4MIS](https://github.com/HiLab-git/SSL4MIS).
 We thank the authors for their open-sourced code and encourage users to cite their works when applicable.
 
 ## Citations
