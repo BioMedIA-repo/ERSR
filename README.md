@@ -41,8 +41,10 @@ We thank the authors for their open-sourced code and encourage users to cite the
 
 ## Citations
 
-
-
+If the code is helpful for your research, please consider citing:
+```angular2
+L. Zhou et al., "ERSR: An Ellipse-constrained pseudo-label refinement and symmetric regularization framework for semi-supervised fetal head segmentation in ultrasound images," in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2025.3602655.
+```
 ## Social media
 
 <p align="center"><img width="600" alt="image" src="https://github.com/BioMedIA-repo/.github/blob/052046a248d3831a599e11c85ff94cdd658c5abc/pic/wechat.png" height=""></p> 
