@@ -4,7 +4,7 @@ import argparse
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root_path', type=str,
-                        default='../data2D', help='Name of Experiment')
+                        default='data', help='Name of Experiment')
     parser.add_argument('--exp', type=str,
                         default='se/Sup', help='cu/se')
     parser.add_argument('--data_name', type=str,
