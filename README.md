@@ -18,7 +18,7 @@ You can download the supervised models we pre-trained in the corresponding datas
 
 ## Train
 ### 1. Dataset Preparation
-Please organise the dataset according to the following structure,where the npz file stores the images and their corresponding segmentation labels with the key name {image,label}:
+Please organise the dataset according to the following structure,where the npz file stores the images and their corresponding segmentation labels with the key name {image, label}:
 ```angular2
 root:[data]
 +--data_name
@@ -26,6 +26,7 @@ root:[data]
 | +--val.txt
 | +--test.txt
 | +--00001.npz
+| +--...
 ```
 
 ### 2. Unsupervised training
