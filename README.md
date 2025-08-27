@@ -40,3 +40,18 @@ The code is based on [SSL4MIS](https://github.com/HiLab-git/SSL4MIS).
 We thank the authors for their open-sourced code and encourage users to cite their works when applicable.
 
 ## Citations
+
+
+
+## Social media
+
+<p align="center"><img width="600" alt="image" src="https://github.com/BioMedIA-repo/.github/blob/052046a248d3831a599e11c85ff94cdd658c5abc/pic/wechat.png" height=""></p> 
+Welcome to follow our [Wechat official account: iBioMedInfo] and [Xiaohongshu official account: iBioMedInfo], we will share recent studies on biomedical image and bioinformation analysis there.
+
+## Global Collaboration & Questions
+
+**Global Collaboration:** We're on a mission to biomedical research, aiming for artificial intelligence and its
+applications to biomedical image and bioinformation analysis, promoting the development of the medical community.
+Collaborate with us to increase competitiveness.
+
+**Questions:** General questions, please contact 'zlinkw@mail.nwpu.edu.cn'
