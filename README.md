@@ -32,9 +32,24 @@ root:[data]
 ### 2. Unsupervised training
 Now you can start to fine-tune the supervised model:
 ```angular2
-python train.py --exp se/train --data_name fetal_head_se --labeled_ratio 0.1
+python train.py --exp <experiments name> --data_name <dataset name> --labeled_ratio <0.1 or 0.2> --pth <pretrained_ckpt_pth>
 ```
-
+For PSFH dataset with 10% labeled:
+```angular2
+python train.py --exp se/train01 --data_name fetal_head_se --labeled_ratio 0.1 --pth se_01
+```
+For PSFH dataset with 20% labeled:
+```angular2
+python train.py --exp se/train02 --data_name fetal_head_se --labeled_ratio 0.2 --pth se_02
+```
+For HC18 dataset with 10% labeled:
+```angular2
+python train.py --exp cu/train01 --data_name fetal_head_cu --labeled_ratio 0.1 --pth cu_01
+```
+For HC18 dataset with 20% labeled:
+```angular2
+python train.py --exp cu/train02 --data_name fetal_head_cu --labeled_ratio 0.2 --pth cu_02
+```
 ## Acknowledgement
 The code is based on [SSL4MIS](https://github.com/HiLab-git/SSL4MIS).
 We thank the authors for their open-sourced code and encourage users to cite their works when applicable.
